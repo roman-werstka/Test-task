@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container flex">
+      <button class="btn-reset burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+      <a href="#" class="header__link">
+        Личный кабинет
+      </a>
+      <button class="btn__catalog btn-reset">
+        Каталог услуг
+      </button>
+      <button class="btn__modal btn-reset flex">
+        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewbox="0 0 39 39" fill="none">
+          <circle cx="19.1546" cy="19.1546" r="19.1546" fill="#FE5F5F" />
+          <path d="M17.2125 26.1522L18.9712 29.4321H18.9957L20.7788 26.1522L18.9957 24.5769L17.2125 26.1522Z"
+            fill="white" />
+          <path
+            d="M18.9957 10.5808C18.6048 10.752 13.6707 13.0419 13.6707 16.7015C13.6707 19.826 16.5774 24.577 16.5774 24.577L18.9957 22.4583L21.4139 24.577C21.4139 24.577 24.3207 19.8474 24.3207 16.7015C24.2963 13.0419 19.3621 10.752 18.9957 10.5808ZM20.5834 21.0244L18.9957 19.6334L17.4079 21.0244C17.3347 20.8318 16.2599 18.3065 16.2599 16.6587C16.2599 14.433 18.8003 13.1917 18.9957 13.1061C19.1911 13.1703 21.7315 14.433 21.7315 16.6587C21.7315 18.3065 20.6567 20.8318 20.5834 21.0244Z"
+            fill="white" />
+          <path d="M24.3092 8.99995L22.4956 10.5889L24.3092 12.1778L26.1228 10.5889L24.3092 8.99995Z" fill="white" />
+          <path
+            d="M20.2657 16.6144C20.2657 17.2186 19.7039 17.715 19.02 17.715C18.336 17.715 17.7742 17.2186 17.7742 16.6144C17.7742 16.0102 18.336 15.5139 19.02 15.5139C19.7039 15.5139 20.2657 16.0102 20.2657 16.6144Z"
+            fill="white" />
+        </svg>
+        Онлайн помощник
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <a href="#" class="hero__logo">
+          <img src="img/logo.svg" alt="Логотип Мой бизнес">
+        </a>
+        <h1 class="hero__title">
+          Мой бизнес - цифровая платформа для тех, кто хочет открыть и развивать свой бизнес
+        </h1>
+      </div>
+    </section>
+    <section class="question">
+      <div class="container flex">
+        <p class="question__descr">
+          Для начала работы ответьте на вопрос,
+          есть ли у вас уже существующий бизнес?
+        </p>
+        <ul class="question__list list-reset flex">
+          <li class="question__item">
+            <button class="question__btn btn-reset">
+              Да, у меня уже есть бизнес
+            </button>
+          </li>
+          <li class="question__item">
+            <button class="question__btn btn-reset">
+              Нет, но планирую открыть
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container flex">
+        <div class="section__iner flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewbox="0 0 10 9" fill="none">
+            <path d="M4.8685 8.37855e-05L0 4.43091L4.8685 8.86173L9.737 4.43091L4.8685 8.37855e-05Z" fill="#FE5F5F" />
+          </svg>
+          <h2 class="section__title">
+            Преимущества
+          </h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewbox="0 0 10 9" fill="none">
+            <path d="M4.8685 8.37855e-05L0 4.43091L4.8685 8.86173L9.737 4.43091L4.8685 8.37855e-05Z" fill="#FE5F5F" />
+          </svg>
+        </div>
+        <ul class="advantages__list list-reset flex">
+          <li class="advantages__item flex">
+            <div class="advantages__iner flex">
+              <div class="advantages__iner-left"></div>
+              <div class="advantages__iner-right"></div>
+            </div>
+            <span>482</span>
+            <h3 class="advantages__subtitle">
+              Организаций поддержки
+              по Российской Федерации
+            </h3>
+          </li>
+          <li class="advantages__item flex">
+            <div class="advantages__iner flex">
+              <div class="advantages__iner-dop"></div>
+            </div>
+            <span>5240</span>
+            <h3 class="advantages__subtitle">
+              Оказано услуг
+              государственной поддержки
+            </h3>
+          </li>
+          <li class="advantages__item flex">
+            <div class="advantages__iner flex">
+              <div class="advantages__iner-dop"></div>
+            </div>
+            <span>1360</span>
+            <h3 class="advantages__subtitle">
+              Зарегестрировано
+              участников проекта
+            </h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="story">
+      <div class="container flex">
+        <div class="section__iner flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewbox="0 0 10 9" fill="none">
+            <path d="M4.8685 8.37855e-05L0 4.43091L4.8685 8.86173L9.737 4.43091L4.8685 8.37855e-05Z" fill="#FE5F5F" />
+          </svg>
+          <h2 class="section__title">
+            Истории успеха
+          </h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewbox="0 0 10 9" fill="none">
+            <path d="M4.8685 8.37855e-05L0 4.43091L4.8685 8.86173L9.737 4.43091L4.8685 8.37855e-05Z" fill="#FE5F5F" />
+          </svg>
+        </div>
+        <ul class="story__list list-reset flex">
+          <li class="story__item flex">
+            <div class="story__image">
+              <img src="img/story-item1.png" alt="Фотография повара">
+            </div>
+            <div class="story__content flex">
+              <h3 class="story__subtitle">
+                Пекарня “Русские традиции”
+              </h3>
+              <div class="story__text flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewbox="0 0 24 33" fill="none">
+                  <path d="M0.0317415 25.3278L7.11826 32.4189L14.2048 25.3278L7.11827 18.2366L0.0317415 25.3278Z"
+                    fill="#FE5F5F" />
+                  <path d="M8.92492 16.4631L16.0115 23.5542L23.0981 16.4631L16.0115 9.37206L8.92492 16.4631Z"
+                    fill="#FE5F5F" />
+                  <path d="M2.6607e-07 7.51047L7.08649 14.6017L14.173 7.51047L7.0865 0.419285L2.6607e-07 7.51047Z"
+                    fill="#FE5F5F" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewbox="0 0 24 33" fill="none">
+                  <path d="M0.0317415 25.3278L7.11826 32.4189L14.2048 25.3278L7.11827 18.2366L0.0317415 25.3278Z"
+                    fill="#FE5F5F" />
+                  <path d="M8.92492 16.4631L16.0115 23.5542L23.0981 16.4631L16.0115 9.37206L8.92492 16.4631Z"
+                    fill="#FE5F5F" />
+                  <path d="M2.6607e-07 7.51047L7.08649 14.6017L14.173 7.51047L7.0865 0.419285L2.6607e-07 7.51047Z"
+                    fill="#FE5F5F" />
+                </svg>
+                <p class="story__descr">
+                  Как говорит сам Владимир:
+                  <q>
+                    мне хотелось, чтобы все узнали, что такое русская кухня
+                  </q>
+                  ,
+                  <q>
+                    обьяснить, что она жива
+                  </q>
+                  .
+                </p>
+              </div>
+              <p class="story__descr">
+                Чтобы мини-пекарня стала рентабельным бизнесом, необходимы строгие расчеты, учет рисков и перспектив,
+                анализ рынка, налаживание сбыта.
+              </p>
+              <a href="#" class="story__link">
+                Читать историю
+              </a>
+            </div>
+          </li>
+          <li class="story__item flex">
+            <div class="story__image">
+              <img src="img/story-item2.png" alt="Фотография механика">
+            </div>
+            <div class="story__content flex">
+              <h3 class="story__subtitle">
+                Автомастерская
+              </h3>
+              <div class="story__text flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewbox="0 0 24 33" fill="none">
+                  <path d="M0.0317415 25.3278L7.11826 32.4189L14.2048 25.3278L7.11827 18.2366L0.0317415 25.3278Z"
+                    fill="#FE5F5F" />
+                  <path d="M8.92492 16.4631L16.0115 23.5542L23.0981 16.4631L16.0115 9.37206L8.92492 16.4631Z"
+                    fill="#FE5F5F" />
+                  <path d="M2.6607e-07 7.51047L7.08649 14.6017L14.173 7.51047L7.0865 0.419285L2.6607e-07 7.51047Z"
+                    fill="#FE5F5F" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewbox="0 0 24 33" fill="none">
+                  <path d="M0.0317415 25.3278L7.11826 32.4189L14.2048 25.3278L7.11827 18.2366L0.0317415 25.3278Z"
+                    fill="#FE5F5F" />
+                  <path d="M8.92492 16.4631L16.0115 23.5542L23.0981 16.4631L16.0115 9.37206L8.92492 16.4631Z"
+                    fill="#FE5F5F" />
+                  <path d="M2.6607e-07 7.51047L7.08649 14.6017L14.173 7.51047L7.0865 0.419285L2.6607e-07 7.51047Z"
+                    fill="#FE5F5F" />
+                </svg>
+                <p class="story__descr">
+                  Первые дни независимости. Когда не нужно рано вставать, когда не нужно отпрашиваться, что бы успеть
+                  съездить в магазин, когда удобно.
+                </p>
+              </div>
+              <p class="story__descr">
+                Встреча в городе Н с моими будущими партнерами была плодотворной. Я не смог заснуть до пяти утра – не
+                потому что не спалось, но потому что мысли о будущих перспективах просто взрывали мой мозг.
+              </p>
+              <a href="#" class="story__link">
+                Читать историю
+              </a>
+            </div>
+          </li>
+          <li class="story__item flex">
+            <div class="story__image">
+              <img src="img/story-item3.png" alt="Фотография мастера">
+            </div>
+            <div class="story__content flex">
+              <h3 class="story__subtitle">
+                Салон красоты “Эмират”
+              </h3>
+              <div class="story__text flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewbox="0 0 24 33" fill="none">
+                  <path d="M0.0317415 25.3278L7.11826 32.4189L14.2048 25.3278L7.11827 18.2366L0.0317415 25.3278Z"
+                    fill="#FE5F5F" />
+                  <path d="M8.92492 16.4631L16.0115 23.5542L23.0981 16.4631L16.0115 9.37206L8.92492 16.4631Z"
+                    fill="#FE5F5F" />
+                  <path d="M2.6607e-07 7.51047L7.08649 14.6017L14.173 7.51047L7.0865 0.419285L2.6607e-07 7.51047Z"
+                    fill="#FE5F5F" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewbox="0 0 24 33" fill="none">
+                  <path d="M0.0317415 25.3278L7.11826 32.4189L14.2048 25.3278L7.11827 18.2366L0.0317415 25.3278Z"
+                    fill="#FE5F5F" />
+                  <path d="M8.92492 16.4631L16.0115 23.5542L23.0981 16.4631L16.0115 9.37206L8.92492 16.4631Z"
+                    fill="#FE5F5F" />
+                  <path d="M2.6607e-07 7.51047L7.08649 14.6017L14.173 7.51047L7.0865 0.419285L2.6607e-07 7.51047Z"
+                    fill="#FE5F5F" />
+                </svg>
+                <p class="story__descr">
+                  Когда же появилась возможность открыть свой бизнес, я рассматривала различные варианты, изучала
+                  всевозможные направления.
+                </p>
+              </div>
+              <a href="#" class="story__link">
+                Читать историю
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container flex">
+        <h2 class="contacts__title">
+          Есть вопросы?
+        </h2>
+        <p class="contacts__descr">
+          Задайте интересующие вас вопросы
+          онлайн помощнику
+        </p>
+        <button class="contacts__btn btn-reset">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewbox="0 0 13 23" fill="none">
+            <path d="M3.77332 19.2907L5.53203 22.9797H5.55646L7.3396 19.2907L5.55646 17.519L3.77332 19.2907Z"
+              fill="white" />
+            <path
+              d="M5.55646 1.77832C5.16563 1.97087 0.231445 4.54623 0.231445 8.66198C0.231445 12.176 3.13822 17.5193 3.13822 17.5193L5.55646 15.1365L7.9747 17.5193C7.9747 17.5193 10.8815 12.2001 10.8815 8.66198C10.857 4.54623 5.92286 1.97087 5.55646 1.77832ZM7.14419 13.5239L5.55646 11.9594L3.96872 13.5239C3.89544 13.3073 2.82067 10.4671 2.82067 8.61385C2.82067 6.1107 5.36104 4.71471 5.55646 4.61843C5.75187 4.69064 8.29224 6.1107 8.29224 8.61385C8.29224 10.4671 7.21747 13.3073 7.14419 13.5239Z"
+              fill="white" />
+            <path d="M10.87 -2.41359e-08L9.0564 1.78699L10.87 3.57397L12.6836 1.78699L10.87 -2.41359e-08Z"
+              fill="white" />
+            <path
+              d="M6.82654 8.56335C6.82654 9.24299 6.26471 9.80127 5.58075 9.80127C4.89679 9.80127 4.33496 9.24299 4.33496 8.56335C4.33496 7.88371 4.89679 7.32544 5.58075 7.32544C6.26471 7.32544 6.82654 7.88371 6.82654 8.56335Z"
+              fill="white" />
+          </svg>
+          Онлайн помощник
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container flex">
+      <nav class="nav">
+        <ul class="nav__list list-reset flex">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Услуги  и поддержка
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Сервисы для бизнеса
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Общая информация
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Защита бизнеса
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="footer__list list-reset flex">
+        <li class="footer__item">
+          <a href="mailto:service@in-line.ru" class="footer__link">
+            service@in-line.ru
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="tel:+78002007430" class="footer__link">
+            8-800-200-74-30
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
